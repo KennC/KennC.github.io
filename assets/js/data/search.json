@@ -1,0 +1,124 @@
+[
+  
+  {
+    "title": "個人 Git 常用指令",
+    "url": "/git-snippet.html",
+    "categories": "Tool, Git",
+    "tags": "Tool, Git",
+    "date": "2021-01-09 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "記錄我常用的Git指令，有想到會陸續增加。checkout  $ git checkout &amp;lt;branch&amp;gt; 切換分支  $ git checkout -b &amp;lt;branch&amp;gt; 建立新分支，同時切換到新分支add  $ git add . 所有異動檔案加到暫存區（如果是 Git 1.x 版不會處理「刪除檔案」的異動）  $ git add &amp;lt;filename&amp;gt; 加入此檔案到暫存區。  加入檔案到暫存區這個步驟，在我使用 GUI 工具後，改成會在 GUI 工具再看一次自己修改的檔案內容，確認修改部分沒有錯誤後..."
+  },
+  
+  {
+    "title": "iTerm + Oh My Zsh 設定",
+    "url": "/mac-command-line.html",
+    "categories": "Tool",
+    "tags": "Tool",
+    "date": "2021-01-02 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "iTerm + Oh My Zsh 設定。由於每次重灌 MAC 後就要上網搜尋一下模板跟字體的載點，以及環境的設定。所以這篇目的是記下步驟、連結資源，未來好找。      安裝 iTerm2        安裝 oh my zsh  如無法安裝，請確認是否已事先安裝好 Command Line Tools 或是 Homebrew。在 iTerm2 上看到這畫面就是成功安裝 oh my zsh修改theme從第一次使用以來看網路教學就是都用 agnoster，所以也用得很習慣，有換過別的 theme，不過最後還是換回 agnoster 了。  用 vi 打開 ~/.zshrc 修改 ZSH..."
+  },
+  
+  {
+    "title": "Apple reject - Design - Minimum Functionality",
+    "url": "/minimum-functionality.html",
+    "categories": "iOS",
+    "tags": "iOS, Apple Store, Reject",
+    "date": "2021-01-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Guideline 4.2.2 - Design - Minimum Functionality  We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. We understand that this content may be curated from the web specifically for your users, but since it does n..."
+  },
+  
+  {
+    "title": "Apple reject - Invalid sdk value",
+    "url": "/invalid-sdk-value.html",
+    "categories": "iOS",
+    "tags": "iOS, Apple Store, Reject",
+    "date": "2021-01-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Invalid sdk value  Dear developer,  We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected:  Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is..."
+  },
+  
+  {
+    "title": "Apple reject - Information Needed",
+    "url": "/information-needed.html",
+    "categories": "iOS",
+    "tags": "iOS, Apple Store, Reject",
+    "date": "2021-01-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Guideline 2.1 - Information Needed  This type of app has been identified as one that may violate one or more of the following App Store Review Guidelines. Specifically, these types of apps often:  1.1.6 - Include false information, features, or misleading metadata.  2.3.0 - Undergo significant co..."
+  },
+  
+  {
+    "title": "iOS APP rejected",
+    "url": "/iOS-app-rejected.html",
+    "categories": "iOS",
+    "tags": "iOS, Apple Store, Reject",
+    "date": "2021-01-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "前言分享我遇過的駁回原因，列出信件內容，並說明信件、導致原因以及我的解決方式，供遇到相同問題的開發者參考。每個審核人員看的角度都不太一樣，所以解決方式不一定適用。如果你對被駁回的原因有異議，可以回信給 Apple 申訴，有時是審核人員使用方式錯誤，或是認知問題，都可以得到更詳細的解釋。或是甚至 Apple Guideline 沒有詳述，而審核人員卻抓很嚴，也可以提出覆議，不過這一項通常無效，畢竟解釋方式是以審核人為主。現在 iOS 有內建螢幕錄影，必要時還是需要螢幕錄影加講解。駁回原因  Invalid sdk value  4.0 Before You Submit: Info Nee..."
+  },
+  
+  {
+    "title": "Apple reject - Before You Submit",
+    "url": "/before-you-submit.html",
+    "categories": "iOS",
+    "tags": "iOS, Apple Store, Reject",
+    "date": "2021-01-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "4.0 Before You Submit: Info Needed (iOS)(Invalid sdk value)  Dear developer,  Information Needed  We began the review of your app but aren’t able to continue because we need additional information about your app.  At your earliest opportunity, please review the following question(s) and provide a..."
+  },
+  
+  {
+    "title": "Apple reject - App Completeness",
+    "url": "/app-completeness.html",
+    "categories": "iOS",
+    "tags": "iOS, Apple Store, Reject",
+    "date": "2021-01-01 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Guideline 2.1 - Performance - App Completeness  We discovered one or more bugs in your app when reviewed on iPhone and iPad running iOS 11.2.1 on Wi-Fi connected to an IPv6 network.  Specifically, we found that your app does not load any content under the “A頁面“ section. Please see attached screen..."
+  }
+  
+]
+

@@ -1,0 +1,277 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000</id>
+  <title>Ken Chang</title>
+  <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
+  <updated>2021-02-08T22:46:37+08:00</updated>
+  <author>
+    <name>Ken Chang</name>
+    <uri>http://localhost:4000</uri>
+  </author>
+  <link href="/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000" rel="alternate" type="text/html" />
+  <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
+  <rights> © 2021 Ken Chang </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>個人 Git 常用指令</title>
+    <link href="http://localhost:4000/git-snippet.html" rel="alternate" type="text/html" title="個人 Git 常用指令" />
+    <published>2021-01-09T00:00:00+08:00</published>
+  
+    <updated>2021-01-09T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/git-snippet.html</id>
+    <content src="http://localhost:4000/git-snippet.html" />
+    <author>
+      <name>Ken Chang</name>
+    </author>
+
+  
+    
+    <category term="Tool" />
+    
+    <category term="Git" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      記錄我常用的Git指令，有想到會陸續增加。
+
+
+
+checkout
+
+  $ git checkout &amp;lt;branch&amp;gt; 切換分支
+  $ git checkout -b &amp;lt;branch&amp;gt; 建立新分支，同時切換到新分支
+
+
+
+add
+
+  $ git add . 所有異動檔案加到暫存區（如果是 Git 1.x 版不會處理「刪除檔案」的異動）
+  $ git add &amp;lt;filename&amp;gt; 加入此檔案到暫存區。
+
+
+
+  加入檔案到暫存區這個步驟，在我使用 GUI 工具後，改成會在 GUI 工具再看一次自己修改的檔案內容，確認修改部分沒有錯誤後就勾選檔案，工具會把勾選的檔案加到暫存區。
+
+
+
+commit
+
+  $ git commit -m "title" -m "desc" 將暫存區的檔案儲存，並加入標題跟描述。
+
+
+
+  也可以只加標題或是不特別...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>iTerm + Oh My Zsh 設定</title>
+    <link href="http://localhost:4000/mac-command-line.html" rel="alternate" type="text/html" title="iTerm + Oh My Zsh 設定" />
+    <published>2021-01-02T00:00:00+08:00</published>
+  
+    <updated>2021-01-02T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/mac-command-line.html</id>
+    <content src="http://localhost:4000/mac-command-line.html" />
+    <author>
+      <name>Ken Chang</name>
+    </author>
+
+  
+    
+    <category term="Tool" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      iTerm + Oh My Zsh 設定。由於每次重灌 MAC 後就要上網搜尋一下模板跟字體的載點，以及環境的設定。所以這篇目的是記下步驟、連結資源，未來好找。
+
+
+
+
+  
+    安裝 iTerm2
+  
+  
+    安裝 oh my zsh
+  
+
+
+如無法安裝，請確認是否已事先安裝好 Command Line Tools 或是 Homebrew。
+
+在 iTerm2 上看到這畫面就是成功安裝 oh my zsh
+
+
+
+
+修改theme
+
+從第一次使用以來看網路教學就是都用 agnoster，所以也用得很習慣，有換過別的 theme，不過最後還是換回 agnoster 了。
+
+
+  用 vi 打開 ~/.zshrc 修改 ZSH_THEME 為 agnoster
+  重新開啟 iTerm ，就可以看到 theme，字體還是亂碼，改好字體後就不會了。
+
+
+
+
+調整背景顏色
+
+
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Apple reject - Design - Minimum Functionality</title>
+    <link href="http://localhost:4000/minimum-functionality.html" rel="alternate" type="text/html" title="Apple reject - Design - Minimum Functionality" />
+    <published>2021-01-01T00:00:00+08:00</published>
+  
+    <updated>2021-01-01T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/minimum-functionality.html</id>
+    <content src="http://localhost:4000/minimum-functionality.html" />
+    <author>
+      <name>Ken Chang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Guideline 4.2.2 - Design - Minimum Functionality
+
+
+  We noticed that your app only includes links, images, or content aggregated from the Internet with limited or no native iOS functionality. We understand that this content may be curated from the web specifically for your users, but since it does not sufficiently differ from a mobile web browsing experience, it is not appropriate for the App S...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Apple reject - Invalid sdk value</title>
+    <link href="http://localhost:4000/invalid-sdk-value.html" rel="alternate" type="text/html" title="Apple reject - Invalid sdk value" />
+    <published>2021-01-01T00:00:00+08:00</published>
+  
+    <updated>2021-01-01T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/invalid-sdk-value.html</id>
+    <content src="http://localhost:4000/invalid-sdk-value.html" />
+    <author>
+      <name>Ken Chang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Invalid sdk value
+
+
+  Dear developer,
+
+  We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected:
+
+  Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1.
+
+  Once these issues have been...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Apple reject - Information Needed</title>
+    <link href="http://localhost:4000/information-needed.html" rel="alternate" type="text/html" title="Apple reject - Information Needed" />
+    <published>2021-01-01T00:00:00+08:00</published>
+  
+    <updated>2021-01-01T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/information-needed.html</id>
+    <content src="http://localhost:4000/information-needed.html" />
+    <author>
+      <name>Ken Chang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Guideline 2.1 - Information Needed
+
+
+  This type of app has been identified as one that may violate one or more of the following App Store Review Guidelines. Specifically, these types of apps often:
+
+  1.1.6 - Include false information, features, or misleading metadata.
+
+  2.3.0 - Undergo significant concept changes after approval
+
+  2.3.1 - Have hidden or undocumented features, including hidde...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
