@@ -2,7 +2,7 @@
 
 
 
-<html lang="en" 
+<html lang="en-US" 
   
     mode="light"
   
@@ -10,27 +10,28 @@
 
   <!--
   The Head
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
 -->
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme" content="Chirpy v2.7.1">
+
+  
+    <meta name="pv-cache-enabled" content="false">
+
+    
+  
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
-<meta name="generator" content="Jekyll v4.1.1" />
+<meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Apple reject - Invalid sdk value" />
 <meta name="author" content="Ken Chang" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Invalid sdk value Dear developer, We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected: Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1. Once these issues have been corrected, use Xcode or Application Loader to upload a new binary to iTunes Connect. Choose the new binary on the app’s Details page in My Apps on iTunes Connect, and click Submit for Review.Regards, The App Store team 信件大綱 大致上是說你使用的SDK版本(10.2)比 Apple 後台版本(10.1)還要新。 導致原因 如大綱 使用 beta 版的 Xcode上傳你開發的 App 到 iTuneConnect，就會收到這信件。beta 版的 Xcode，裡面有許多 sdk 也是 beta 版，比 iTuneConnect 後端的版本還要新。 你的 Xcode 更新好了，而 iTuneConnect 後端還沒更新好，這一般只會發生在 Xcode 剛釋出新版本的時候。 解決方式 使用舊版的 Xcode 上傳，你要再去載上一版本的 Xcode。(求助未更新Xcode的同事電腦較快) 等待 iTuneConnect 更新，一般會在一天後就更新好了。" />
-<meta property="og:description" content="Invalid sdk value Dear developer, We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected: Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1. Once these issues have been corrected, use Xcode or Application Loader to upload a new binary to iTunes Connect. Choose the new binary on the app’s Details page in My Apps on iTunes Connect, and click Submit for Review.Regards, The App Store team 信件大綱 大致上是說你使用的SDK版本(10.2)比 Apple 後台版本(10.1)還要新。 導致原因 如大綱 使用 beta 版的 Xcode上傳你開發的 App 到 iTuneConnect，就會收到這信件。beta 版的 Xcode，裡面有許多 sdk 也是 beta 版，比 iTuneConnect 後端的版本還要新。 你的 Xcode 更新好了，而 iTuneConnect 後端還沒更新好，這一般只會發生在 Xcode 剛釋出新版本的時候。 解決方式 使用舊版的 Xcode 上傳，你要再去載上一版本的 Xcode。(求助未更新Xcode的同事電腦較快) 等待 iTuneConnect 更新，一般會在一天後就更新好了。" />
-<link rel="canonical" href="http://localhost:4000/invalid-sdk-value.html" />
-<meta property="og:url" content="http://localhost:4000/invalid-sdk-value.html" />
-<meta property="og:site_name" content="Ken Chang" />
+<meta name="description" content="Invalid sdk value Dear developer, We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected: Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1. Once these issues have been corrected, use Xcode or Application Loader to upload a new binary to iTunes Connect. Choose the new binary on the app’s Details page in My Apps on iTunes Connect, and click Submit for Review.Regards, The App Store team" />
+<meta property="og:description" content="Invalid sdk value Dear developer, We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected: Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1. Once these issues have been corrected, use Xcode or Application Loader to upload a new binary to iTunes Connect. Choose the new binary on the app’s Details page in My Apps on iTunes Connect, and click Submit for Review.Regards, The App Store team" />
+<link rel="canonical" href="https://kennc.github.io/invalid-sdk-value.html" />
+<meta property="og:url" content="https://kennc.github.io/invalid-sdk-value.html" />
+<meta property="og:site_name" content="Chirpy" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-01-01T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
@@ -39,20 +40,16 @@
 <meta name="twitter:creator" content="@Ken Chang" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Ken Chang"},"url":"http://localhost:4000/invalid-sdk-value.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/invalid-sdk-value.html"},"headline":"Apple reject - Invalid sdk value","dateModified":"2021-01-01T00:00:00+08:00","datePublished":"2021-01-01T00:00:00+08:00","description":"Invalid sdk value Dear developer, We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected: Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1. Once these issues have been corrected, use Xcode or Application Loader to upload a new binary to iTunes Connect. Choose the new binary on the app’s Details page in My Apps on iTunes Connect, and click Submit for Review.Regards, The App Store team 信件大綱 大致上是說你使用的SDK版本(10.2)比 Apple 後台版本(10.1)還要新。 導致原因 如大綱 使用 beta 版的 Xcode上傳你開發的 App 到 iTuneConnect，就會收到這信件。beta 版的 Xcode，裡面有許多 sdk 也是 beta 版，比 iTuneConnect 後端的版本還要新。 你的 Xcode 更新好了，而 iTuneConnect 後端還沒更新好，這一般只會發生在 Xcode 剛釋出新版本的時候。 解決方式 使用舊版的 Xcode 上傳，你要再去載上一版本的 Xcode。(求助未更新Xcode的同事電腦較快) 等待 iTuneConnect 更新，一般會在一天後就更新好了。","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"dateModified":"2021-01-01T00:00:00+08:00","datePublished":"2021-01-01T00:00:00+08:00","url":"https://kennc.github.io/invalid-sdk-value.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://kennc.github.io/invalid-sdk-value.html"},"author":{"@type":"Person","name":"Ken Chang"},"description":"Invalid sdk value Dear developer, We have discovered one or more issues with your recent submission for “Your app name”. To process your submission, the following issues must be corrected: Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1. Once these issues have been corrected, use Xcode or Application Loader to upload a new binary to iTunes Connect. Choose the new binary on the app’s Details page in My Apps on iTunes Connect, and click Submit for Review.Regards, The App Store team","@type":"BlogPosting","headline":"Apple reject - Invalid sdk value","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Apple reject - Invalid sdk value | Ken Chang
+  <title>Apple reject - Invalid sdk value | Chirpy
   </title>
 
   <!--
   The Favicons for Web, Android, Microsoft, and iOS (iPhone and iPad) Apps
   Generated by: https://www.favicon-generator.org/
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2019 Cotes Chung
-  Published under the MIT license
 -->
 
 
@@ -108,25 +105,13 @@
 
   <!--
   CSS selector for site.
-  Chirpy v2.3
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT Licensed
 -->
 
+<link rel="stylesheet" href="/assets/css/style.css">
 
 
-
-
-
-<link rel="preload" href="/assets/css/post.css" as="style">
-<link rel="stylesheet" href="/assets/css/post.css">
-
-
-  
-    <link rel="preload" as="style" href="/assets/css/lib/bootstrap-toc.min.css">
-    <link rel="stylesheet" href="/assets/css/lib/bootstrap-toc.min.css" />
-  
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css">
 
 
 
@@ -139,17 +124,16 @@
 
   <!--
   JS selector for site.
-  Chirpy v2.3
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT Licensed
 -->
 
 
+  
 
 
 
-<script async src="/assets/js/post.min.js"></script>
+
+
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
@@ -163,10 +147,6 @@
 
     <!--
   The Side Bar
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
 -->
 
 <div id="sidebar" class="d-flex flex-column align-items-end">
@@ -175,14 +155,12 @@
     <div id="avatar">
       <a href="/" alt="avatar" class="mx-auto">
         
-        
-        
-        <img src="/assets/img/sample/avatar.jpg" alt="avatar" onerror="this.style.display='none'">
+        <img src="https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
 
     <div class="site-title mt-3">
-      <a href="/">Ken Chang</a>
+      <a href="/">Chirpy</a>
     </div>
 
     <div class="site-subtitle font-italic">Write something.</div>
@@ -200,28 +178,28 @@
     <!-- the real tabs -->
     
     <li class="nav-item">
-      <a href="/tabs/categories/" class="nav-link">
+      <a href="/categories/" class="nav-link">
         <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i>
         <span>CATEGORIES</span>
       </a>
     </li> <!-- .nav-item -->
     
     <li class="nav-item">
-      <a href="/tabs/tags/" class="nav-link">
+      <a href="/tags/" class="nav-link">
         <i class="fa-fw fas fa-tags ml-xl-3 mr-xl-3 unloaded"></i>
         <span>TAGS</span>
       </a>
     </li> <!-- .nav-item -->
     
     <li class="nav-item">
-      <a href="/tabs/archives/" class="nav-link">
+      <a href="/archives/" class="nav-link">
         <i class="fa-fw fas fa-archive ml-xl-3 mr-xl-3 unloaded"></i>
         <span>ARCHIVES</span>
       </a>
     </li> <!-- .nav-item -->
     
     <li class="nav-item">
-      <a href="/tabs/about/" class="nav-link">
+      <a href="/about/" class="nav-link">
         <i class="fa-fw fas fa-info ml-xl-3 mr-xl-3 unloaded"></i>
         <span>ABOUT</span>
       </a>
@@ -288,27 +266,33 @@
 
     <!--
   The Top Bar
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
 -->
+
 <div id="topbar-wrapper" class="row justify-content-center topbar-down">
   <div id="topbar" class="col-11 d-flex h-100 align-items-center justify-content-between">
     <span id="breadcrumb">
-      
-        
-        <span>
-          <a href="/">
-            Posts
-          </a>
-        </span>
-        
-      
+
+    
+
+    
 
       
-        <span>Apple reject - Invalid sdk value</span>
+
+        
+          
+
+        
+
       
+
+        
+          <span>Apple reject - Invalid sdk value</span>
+
+        
+
+      
+
+    
 
     </span><!-- endof #breadcrumb -->
 
@@ -356,6 +340,8 @@
 <!-- Add attribute 'hide-bullet' to the checkbox list -->
 
 
+
+
 <!-- return -->
 <div class="row">
 
@@ -370,12 +356,12 @@
         <div>
           <!--
   Date format snippet
-
-  v2.4.1
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT License
 -->
+
+
+
+
+
 <span class="timeago "
   
     data-toggle="tooltip"
@@ -393,6 +379,7 @@
   <i class="unloaded">2021-01-01T00:00:00+08:00</i>
 
 </span>
+
           by
           <span class="author">
             Ken Chang
@@ -407,6 +394,10 @@
           <!--
   Calculate the post's reading time, and display the word count in tooltip
  -->
+
+
+<!-- words per minute  -->
+
 
 
 
@@ -426,9 +417,9 @@
 
       <div class="post-content">
 
-        <!-- Using lozad. See: <https://github.com/ApoorvSaxena/lozad.js#usage> -->
         
-          <h1 id="invalid-sdk-value">Invalid sdk value</h1>
+
+        <h1 id="invalid-sdk-value">Invalid sdk value</h1>
 
 <blockquote>
   <p>Dear developer,</p>
@@ -463,7 +454,7 @@
   <li>等待 iTuneConnect 更新，一般會在一天後就更新好了。</li>
 </ul>
 
-        
+
       </div>
 
       <div class="post-tail-wrapper text-muted">
@@ -506,11 +497,6 @@
 
           <!--
  Post sharing snippet
-
- v2.1
- https://github.com/cotes2020/jekyll-theme-chirpy
- © 2019 Cotes Chung
- Published under the MIT License
 -->
 
 <div class="share-wrapper">
@@ -521,19 +507,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Apple reject - Invalid sdk value - Ken Chang&url=http://localhost:4000/invalid-sdk-value.html" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=Apple reject - Invalid sdk value - Chirpy&url=https://kennc.github.io/invalid-sdk-value.html" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Apple reject - Invalid sdk value - Ken Chang&u=http://localhost:4000/invalid-sdk-value.html" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Apple reject - Invalid sdk value - Chirpy&u=https://kennc.github.io/invalid-sdk-value.html" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Apple reject - Invalid sdk value - Ken Chang&url=http://localhost:4000/invalid-sdk-value.html" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=Apple reject - Invalid sdk value - Chirpy&url=https://kennc.github.io/invalid-sdk-value.html" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -561,10 +547,6 @@
 
   <!--
   The Pannel on right side (Desktop views)
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
 -->
 
 <div id="panel-wrapper" class="col-xl-3 pl-2 text-muted topbar-down">
@@ -609,6 +591,30 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
       
         
         
@@ -625,43 +631,6 @@
     
     
     
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
   
     
     
@@ -691,6 +660,201 @@
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -714,10 +878,10 @@
 
       
         
-        <a class="post-tag" href="/tags/apple-store/">Apple Store</a>
+        <a class="post-tag" href="/tags/ios/">iOS</a>
       
         
-        <a class="post-tag" href="/tags/ios/">iOS</a>
+        <a class="post-tag" href="/tags/apple-store/">Apple Store</a>
       
         
         <a class="post-tag" href="/tags/reject/">Reject</a>
@@ -726,7 +890,19 @@
         <a class="post-tag" href="/tags/tool/">Tool</a>
       
         
+        <a class="post-tag" href="/tags/design-pattern/">Design-Pattern</a>
+      
+        
         <a class="post-tag" href="/tags/git/">Git</a>
+      
+        
+        <a class="post-tag" href="/tags/macos/">MacOS</a>
+      
+        
+        <a class="post-tag" href="/tags/objective-c/">Objective-C</a>
+      
+        
+        <a class="post-tag" href="/tags/swift/">Swift</a>
       
 
       </div>
@@ -735,6 +911,8 @@
   </div> <!-- .access -->
 
   
+    <!-- BS-toc.js will be loaded at medium priority -->
+    <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
     <div id="toc-wrapper" class="pl-0 pr-4 mb-5">
       <span class="pl-3 pt-2 mb-2">Contents</span>
       <nav id="toc" data-toggle="toc"></nav>
@@ -753,11 +931,6 @@
     <!--
  Recommend the other 3 posts according to the tags and categories of the current post,
  if the number is not enough, use the other latest posts to supplement.
-
- v2.0
- https://github.com/cotes2020/jekyll-theme-chirpy
- © 2019 Cotes Chung
- Published under the MIT License
 -->
 
 <!-- The total size of related posts  -->
@@ -773,6 +946,19 @@
 
 
 
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
   
@@ -884,7 +1070,8 @@
 
 
   <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
-    <h3 class="pt-2 mt-1 mb-4 ml-1" data-toc-skip>Further Reading</h3>
+    <h3 class="pt-2 mt-1 mb-4 ml-1"
+      data-toc-skip>Further Reading</h3>
     <div class="card-deck mb-4">
     
       
@@ -894,12 +1081,12 @@
           <div class="card-body">
             <!--
   Date format snippet
-
-  v2.4.1
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT License
 -->
+
+
+
+
+
 <span class="timeago small"
   >
 
@@ -913,6 +1100,7 @@
   <i class="unloaded">2021-01-01T00:00:00+08:00</i>
 
 </span>
+
             <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Apple reject - App Completeness</h3>
             <div class="text-muted small">
               <p>
@@ -941,12 +1129,12 @@
           <div class="card-body">
             <!--
   Date format snippet
-
-  v2.4.1
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT License
 -->
+
+
+
+
+
 <span class="timeago small"
   >
 
@@ -960,6 +1148,7 @@
   <i class="unloaded">2021-01-01T00:00:00+08:00</i>
 
 </span>
+
             <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Apple reject - Before You Submit</h3>
             <div class="text-muted small">
               <p>
@@ -990,12 +1179,12 @@
           <div class="card-body">
             <!--
   Date format snippet
-
-  v2.4.1
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT License
 -->
+
+
+
+
+
 <span class="timeago small"
   >
 
@@ -1009,6 +1198,7 @@
   <i class="unloaded">2021-01-01T00:00:00+08:00</i>
 
 </span>
+
             <h3 class="pt-0 mt-1 mb-3" data-toc-skip>iOS APP rejected</h3>
             <div class="text-muted small">
               <p>
@@ -1038,27 +1228,25 @@
 
     <!--
   Navigation buttons at the bottom of the post.
-
-  v2.1
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT License
 -->
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/information-needed.html" class="btn btn-outline-primary">
+  <a href="/information-needed.html" class="btn btn-outline-primary"
+    prompt="Older">
     <p>Apple reject - Information Needed</p>
   </a>
   
 
   
-  <a href="/minimum-functionality.html" class="btn btn-outline-primary">
+  <a href="/minimum-functionality.html" class="btn btn-outline-primary"
+    prompt="Newer">
     <p>Apple reject - Design - Minimum Functionality</p>
   </a>
   
 
 </div>
+
 
     
 
@@ -1068,23 +1256,12 @@
 
 </div> <!-- .row -->
 
-<!-- image lazy load: https://github.com/ApoorvSaxena/lozad.js -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
-<script type="text/javascript">
-  const imgs = document.querySelectorAll('#post-wrapper img');
-  const observer = lozad(imgs);
-  observer.observe();
-</script>
 
 
 
         <!--
   The Footer
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
 -->
 
 <footer class="d-flex w-100 justify-content-center">
@@ -1105,7 +1282,8 @@
         Powered by
         <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
         with
-        <a href="https://github.com/cotes2020/jekyll-theme-chirpy/" target="_blank" rel="noopener">Chirpy</a>
+        <a href="https://github.com/cotes2020/jekyll-theme-chirpy"
+          target="_blank" rel="noopener">Chirpy</a>
         theme.
       </p>
     </div>
@@ -1118,13 +1296,9 @@
 
       <!--
   The Search results
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
 -->
 <div id="search-result-wrapper" class="d-flex justify-content-center unloaded">
-  <div class="col-12 col-xl-11 post-content">
+  <div class="col-12 col-sm-11 post-content">
     <div id="search-hints">
       <h4 class="text-muted mb-4">Trending Tags</h4>
 
@@ -1149,6 +1323,30 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
       
         
         
@@ -1165,43 +1363,6 @@
     
     
     
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
   
     
     
@@ -1241,18 +1402,213 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
 
 
 
-      
-        
-        <a class="post-tag" href="/tags/apple-store/">Apple Store</a>
       
         
         <a class="post-tag" href="/tags/ios/">iOS</a>
+      
+        
+        <a class="post-tag" href="/tags/apple-store/">Apple Store</a>
       
         
         <a class="post-tag" href="/tags/reject/">Reject</a>
@@ -1261,7 +1617,19 @@
         <a class="post-tag" href="/tags/tool/">Tool</a>
       
         
+        <a class="post-tag" href="/tags/design-pattern/">Design Pattern</a>
+      
+        
         <a class="post-tag" href="/tags/git/">Git</a>
+      
+        
+        <a class="post-tag" href="/tags/macos/">MacOS</a>
+      
+        
+        <a class="post-tag" href="/tags/objective-c/">Objective C</a>
+      
+        
+        <a class="post-tag" href="/tags/swift/">Swift</a>
       
 
     </div>
@@ -1282,10 +1650,7 @@
 
     <!--
   Jekyll Simple Search loader
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
+  See: <https://github.com/christian-fei/Simple-Jekyll-Search>
 -->
 
 
@@ -1299,10 +1664,28 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('search-results'),
   json: '/assets/js/data/search.json',
-  searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0">  <a href="http://localhost:4000{url}">{title}</a>  <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">    <div class="mr-sm-4"><i class="far fa-folder fa-fw"></i>{categories}</div>    <div><i class="fa fa-tag fa-fw"></i>{tags}</div>  </div>  <p>{snippet}</p></div>',
-  noResultsText: '<p class="mt-5">Oops! No result founds.</p>'
+  searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0">  <a href="https://kennc.github.io{url}">{title}</a>  <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">    {categories}    {tags}  </div>  <p>{snippet}</p></div>',
+  noResultsText: '<p class="mt-5">Oops! No result founds.</p>',
+  templateMiddleware: function(prop, value, template) {
+    if (prop === 'categories') {
+      if (value === '') {
+        return `${value}`;
+      } else {
+        return `<div class="mr-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+      }
+    }
+
+    if (prop === 'tags') {
+      if (value === '') {
+        return `${value}`;
+      } else {
+        return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+      }
+    }
+  }
 });
 </script>
+
 
   </body>
 

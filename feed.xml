@@ -1,17 +1,18 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000</id>
-  <title>Ken Chang</title>
+  <id>https://kennc.github.io/</id>
+  <title>Chirpy</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-02-08T22:46:37+08:00</updated>
+  <updated>2021-02-16T16:23:24+08:00</updated>
   <author>
     <name>Ken Chang</name>
-    <uri>http://localhost:4000</uri>
+    <uri>https://kennc.github.io/</uri>
   </author>
-  <link href="/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000" rel="alternate" type="text/html" />
-  <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
+  <link rel="self" type="application/atom+xml" href="https://kennc.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="https://kennc.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <rights> © 2021 Ken Chang </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
@@ -19,14 +20,71 @@
 
   
   <entry>
+    <title>iOS 中的 Singleton 及實作方式</title>
+    <link href="https://kennc.github.io/iOS-singleton.html" rel="alternate" type="text/html" title="iOS 中的 Singleton 及實作方式" />
+    <published>2021-02-15T00:00:00+08:00</published>
+  
+    <updated>2021-02-15T00:00:00+08:00</updated>
+  
+    <id>https://kennc.github.io/iOS-singleton.html</id>
+    <content src="https://kennc.github.io/iOS-singleton.html" />
+    <author>
+      <name>Ken Chang</name>
+    </author>
+
+  
+    
+    <category term="iOS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Singleton 原則是單例對象必須保證只有一個實例存在。不管是以何種方式實現，這個設計模式在軟體開發常見。甚至有些內建的類別已經是單例。iOS 有幾種作法可以讓開發者自己做出符合單例的類別，特別要注意 Thread Safety 即可。如果使用 Swift 開發，更有官方推薦簡潔有力的做法。
+
+
+
+
+
+iOS 已實作 Singleton 的類別
+
+Apple 官方的類別有些已實作 singleton，例如：
+
+
+  UIApplication
+  UserDefaults
+  NotificationCenter
+  FileManager
+
+
+提供的全局訪問點就是 shared、standard、defualt，例如：
+
+
+  UIApplication.shared
+  UserDefaults.standard
+  NotificationCenter.defualt
+  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>個人 Git 常用指令</title>
-    <link href="http://localhost:4000/git-snippet.html" rel="alternate" type="text/html" title="個人 Git 常用指令" />
+    <link href="https://kennc.github.io/git-snippet.html" rel="alternate" type="text/html" title="個人 Git 常用指令" />
     <published>2021-01-09T00:00:00+08:00</published>
   
     <updated>2021-01-09T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/git-snippet.html</id>
-    <content src="http://localhost:4000/git-snippet.html" />
+    <id>https://kennc.github.io/git-snippet.html</id>
+    <content src="https://kennc.github.io/git-snippet.html" />
     <author>
       <name>Ken Chang</name>
     </author>
@@ -84,13 +142,13 @@ commit
   
   <entry>
     <title>iTerm + Oh My Zsh 設定</title>
-    <link href="http://localhost:4000/mac-command-line.html" rel="alternate" type="text/html" title="iTerm + Oh My Zsh 設定" />
+    <link href="https://kennc.github.io/mac-command-line.html" rel="alternate" type="text/html" title="iTerm + Oh My Zsh 設定" />
     <published>2021-01-02T00:00:00+08:00</published>
   
     <updated>2021-01-02T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/mac-command-line.html</id>
-    <content src="http://localhost:4000/mac-command-line.html" />
+    <id>https://kennc.github.io/mac-command-line.html</id>
+    <content src="https://kennc.github.io/mac-command-line.html" />
     <author>
       <name>Ken Chang</name>
     </author>
@@ -152,13 +210,13 @@ commit
   
   <entry>
     <title>Apple reject - Design - Minimum Functionality</title>
-    <link href="http://localhost:4000/minimum-functionality.html" rel="alternate" type="text/html" title="Apple reject - Design - Minimum Functionality" />
+    <link href="https://kennc.github.io/minimum-functionality.html" rel="alternate" type="text/html" title="Apple reject - Design - Minimum Functionality" />
     <published>2021-01-01T00:00:00+08:00</published>
   
     <updated>2021-01-01T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/minimum-functionality.html</id>
-    <content src="http://localhost:4000/minimum-functionality.html" />
+    <id>https://kennc.github.io/minimum-functionality.html</id>
+    <content src="https://kennc.github.io/minimum-functionality.html" />
     <author>
       <name>Ken Chang</name>
     </author>
@@ -189,13 +247,13 @@ commit
   
   <entry>
     <title>Apple reject - Invalid sdk value</title>
-    <link href="http://localhost:4000/invalid-sdk-value.html" rel="alternate" type="text/html" title="Apple reject - Invalid sdk value" />
+    <link href="https://kennc.github.io/invalid-sdk-value.html" rel="alternate" type="text/html" title="Apple reject - Invalid sdk value" />
     <published>2021-01-01T00:00:00+08:00</published>
   
     <updated>2021-01-01T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/invalid-sdk-value.html</id>
-    <content src="http://localhost:4000/invalid-sdk-value.html" />
+    <id>https://kennc.github.io/invalid-sdk-value.html</id>
+    <content src="https://kennc.github.io/invalid-sdk-value.html" />
     <author>
       <name>Ken Chang</name>
     </author>
@@ -224,49 +282,6 @@ commit
   Invalid sdk value - The value provided for the sdk portion of LC_VERSION_MIN_IPHONEOS in name.app/name is 10.2 which is greater than the maximum allowed value of 10.1.
 
   Once these issues have been...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Apple reject - Information Needed</title>
-    <link href="http://localhost:4000/information-needed.html" rel="alternate" type="text/html" title="Apple reject - Information Needed" />
-    <published>2021-01-01T00:00:00+08:00</published>
-  
-    <updated>2021-01-01T00:00:00+08:00</updated>
-  
-    <id>http://localhost:4000/information-needed.html</id>
-    <content src="http://localhost:4000/information-needed.html" />
-    <author>
-      <name>Ken Chang</name>
-    </author>
-
-  
-    
-    <category term="iOS" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Guideline 2.1 - Information Needed
-
-
-  This type of app has been identified as one that may violate one or more of the following App Store Review Guidelines. Specifically, these types of apps often:
-
-  1.1.6 - Include false information, features, or misleading metadata.
-
-  2.3.0 - Undergo significant concept changes after approval
-
-  2.3.1 - Have hidden or undocumented features, including hidde...
     </summary>
   
 

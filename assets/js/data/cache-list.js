@@ -1,34 +1,25 @@
 const include = [
 
   /*--- CSS ---*/
-
-  '/assets/css/home.css',
-  '/assets/css/categories.css',
-  '/assets/css/tags.css',
-  '/assets/css/archives.css',
-  '/assets/css/page.css',
-  '/assets/css/post.css',
-  '/assets/css/category-tag.css',
-  '/assets/css/lib/bootstrap-toc.min.css',
+  '/assets/css/style.css',
 
   /*--- Javascripts ---*/
-
-  '/assets/js/home.min.js',
-  '/assets/js/page.min.js',
-  '/assets/js/post.min.js',
-  '/assets/js/categories.min.js',
+  '/assets/js/dist/home.min.js',
+  '/assets/js/dist/page.min.js',
+  '/assets/js/dist/post.min.js',
+  '/assets/js/dist/categories.min.js',
 
   /*--- HTML ---*/
 
   /* Tabs */
   
-    '/tabs/categories/',
+    '/categories/',
   
-    '/tabs/tags/',
+    '/tags/',
   
-    '/tabs/archives/',
+    '/archives/',
   
-    '/tabs/about/',
+    '/about/',
   
 
   /*--- Icons ---*/'/assets/img/favicons/favicon.ico',

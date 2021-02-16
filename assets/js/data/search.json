@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "iOS 中的 Singleton 及實作方式",
+    "url": "/iOS-singleton.html",
+    "categories": "iOS",
+    "tags": "iOS, MacOS, Swift, Objective-C, Design-Pattern",
+    "date": "2021-02-15 00:00:00 +0800",
+    
+
+
+
+
+
+    "snippet": "Singleton 原則是單例對象必須保證只有一個實例存在。不管是以何種方式實現，這個設計模式在軟體開發常見。甚至有些內建的類別已經是單例。iOS 有幾種作法可以讓開發者自己做出符合單例的類別，特別要注意 Thread Safety 即可。如果使用 Swift 開發，更有官方推薦簡潔有力的做法。iOS 已實作 Singleton 的類別Apple 官方的類別有些已實作 singleton，例如：  UIApplication  UserDefaults  NotificationCenter  FileManager提供的全局訪問點就是 shared、standard、defualt，例..."
+  },
+  
+  {
     "title": "個人 Git 常用指令",
     "url": "/git-snippet.html",
     "categories": "Tool, Git",
